@@ -1,13 +1,13 @@
 {
-  "name": "eventcounter",
+  "name": "EventCounter",
   "version": "1.0.0",
-  "description": "",
-  "main": "event-counter.js",
+  "description": "This library helps to track number of events that happened during a specified window of time. It could be used to track how often a particular webpage is served. The default event observation window is 5 minutes.",
+  "main": "/src/event-counter.js",
   "scripts": {
     "test": "mocha --recursive"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brady Tsai",
+  "license": "none",
   "dependencies": {
     "mocha": "^6.0.2",
     "sinon": "^7.3.2"

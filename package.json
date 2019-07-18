@@ -1,0 +1,15 @@
+{
+  "name": "eventcounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "event-counter.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.0.2",
+    "sinon": "^7.3.2"
+  }
+}
